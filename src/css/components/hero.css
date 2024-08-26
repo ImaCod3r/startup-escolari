@@ -1,0 +1,38 @@
+.hero-section{
+    gap: 30px;
+}
+
+.hero-section .text-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-wrapper h1{
+    font-size: 32px;
+}
+
+.hero-section .text-wrapper h1:nth-child(2){
+    color: #4CAF4F;
+    margin-bottom: 15px;
+}
+
+.hero-section .text-wrapper p{
+    font-size: 14px;
+}
+
+.hero-section .text-wrapper button{
+    width: 128px;
+    padding: 10px 0;
+    margin-top: 15px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #4CAF4F;
+    color: #fff;
+}
+
+.hero-section .hero img{
+    width: 300px;
+    border-radius: 10px;
+}

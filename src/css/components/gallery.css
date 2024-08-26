@@ -1,3 +1,13 @@
+.services-section{
+  text-align: center;
+
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: #fff;
+}
+
 .gallery {
   display: flex;
   justify-content: center;

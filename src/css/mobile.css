@@ -33,6 +33,8 @@
 
     background: #4caf4f;
     color: #fff;
+
+    animation: openMobileMenu 1s ease-in-out;
   }
 
   .menu-mobile .nav-list {
@@ -71,7 +73,7 @@
 }
 
 /* Smartphones */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .hero-section {
     flex-direction: column;
     justify-content: center;

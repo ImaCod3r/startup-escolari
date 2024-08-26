@@ -1,0 +1,41 @@
+.community-section{
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    background-color: #fff;
+}
+
+
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    margin: 20px 0;
+}
+
+.feature-container img{
+    width: 50px;
+}
+
+.feature-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    text-align: center;
+
+    height: 260px;
+    padding: 24px 32px;
+    border-radius: 8px;
+
+    box-shadow: 0 1px 3px rgba(189, 240, 224, 0.5);
+}
+
+.feature-item h2{
+    font-size: 18px;
+}
