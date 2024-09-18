@@ -1,3 +1,1 @@
-import { animateCarousel } from "./dom.js";
-
-animateCarousel();
+// empty until i learn how to use modules on javascript
